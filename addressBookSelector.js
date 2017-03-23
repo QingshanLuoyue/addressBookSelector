@@ -253,8 +253,8 @@
             for (var i = 0; i < tempParamm.length; i++) {
                 paramM['itemName'] = tempParamm[i].name;
                 paramM['imgid'] = tempParamm[i].imgid;
-                opt.addItem(tempParamm.worker_id, paramM, opt.accepter_res_list, opt.$accepter_res_list, opt)
-                opt.sendId.push('m'+tempParamm[i].party_id)
+                opt.addItem(tempParamm[i].worker_id, paramM, opt.accepter_res_list, opt.$accepter_res_list, opt)
+                opt.sendId.push('m'+tempParamm[i].worker_id)
             }
 
         },
